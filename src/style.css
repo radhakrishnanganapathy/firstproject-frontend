@@ -1,0 +1,16 @@
+body{
+     background-color: lightblue;
+}
+.btn-cart{
+     background-color: orange;
+}
+.btn-wd{
+     width: 100px;
+}
+.btn-cart:hover
+{
+     background-color: orange;
+}
+.contact-img{
+     width: 100px;
+}
