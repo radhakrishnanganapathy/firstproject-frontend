@@ -2,7 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from "../views/AboutView.vue";
 import ViewProduct from "../views/ViewProduct.vue";
-import BuyItem from "../views/BuyItem.vue";
+import RawMaterial from "../views/RawMaterial.vue";
+import SignUp from "../views/Signup.vue";
+import LogIn from "../views/LogIn.vue";
 
 const routes = [
   {
@@ -16,14 +18,24 @@ const routes = [
     component: ViewProduct,
   },
   {
-    path: "/buy",
-    name: "buyproduct",
-    component: BuyItem,
+    path: "/rawmaterial",
+    name: "rawMaterial",
+    component: RawMaterial,
   },
   {
     path: "/about",
     name: "about",
     component: AboutView,
+  },
+  {
+    path: "/signup",
+    name: "signup",
+    component: SignUp,
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: LogIn,
   },
 ];
 
