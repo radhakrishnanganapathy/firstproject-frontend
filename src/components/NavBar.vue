@@ -8,7 +8,7 @@
           <a href="#"> About</a>
           <a href="#"> Contact</a>
           <a href="#"> Services</a>
-          <router-link to='/login'><button class="btn-own">LogIn</button></router-link>
+          <router-link to='/'><button class="btn-own">LogIn</button></router-link>
           </div>
 </nav>    
 </header>

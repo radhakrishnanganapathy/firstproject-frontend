@@ -1,6 +1,7 @@
 import axios from "axios";
 export class SignUpUser {
-  static serverurl = "http://localhost:8005";
+  // static serverurl = "http://localhost:8005";
+  static serverurl = "https://radhakrishnan-backend.onrender.com";
 
   static usersignup(signup) {
     let dataurl = `${this.serverurl}/name/type/signup/create-user`;

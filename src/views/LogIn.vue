@@ -43,7 +43,7 @@ export default {
                this.login = response
                console.log("loggedIn", response.data)
                if(response){
-                    return this.$router.push('/')
+                    return this.$router.push('/rawmaterial')
                }
                else{
                     return "error"
