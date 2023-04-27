@@ -1,7 +1,15 @@
 <template>
      <div>
+          
+          <div>
+               
+          </div>
+          <div>
           <div><h1>Raw Material</h1></div>
+
           <div class="">
+         
+              
                <form>
                     <div>
                          <label>Items </label>
@@ -22,6 +30,7 @@
                          <input type="submit" value="view">
                     </div>
                </form>
+          </div>
           </div>
      </div>
 </template>

@@ -43,10 +43,16 @@ export default {
                this.login = response
                console.log("loggedIn", response.data)
                if(response){
+                    console.log("loginnnnnnnn....")
                     return this.$router.push('/rawmaterial')
+                    // return this.$toasted.success("login")
                }
                else{
-                    return "error"
+                    // console.log("invale")
+                    // return this.$router.push('/about')
+                    return this.$VueToasted.error('Hello world!', {
+                    duration: 2000
+                    })
                }
           }
      }

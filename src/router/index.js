@@ -5,7 +5,7 @@ import ViewProduct from "../views/ViewProduct.vue";
 import RawMaterial from "../views/RawMaterial.vue";
 import SignUp from "../views/Signup.vue";
 import LogIn from "../views/LogIn.vue";
-
+import AddWord from "../views/AddWord.vue";
 const routes = [
   {
     path: "/home",
@@ -13,7 +13,7 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/viewproduct/:id",
+    path: "/viewproduct",
     name: "product",
     component: ViewProduct,
   },
@@ -36,6 +36,11 @@ const routes = [
     path: "/",
     name: "login",
     component: LogIn,
+  },
+  {
+    path: "/addword",
+    name: "addword",
+    component: AddWord,
   },
 ];
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+  <vue3-toast />
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -46,6 +46,7 @@
 export default {
   name: 'HomeView',
   components: {
-    }
+    },
+    
 }
 </script>
