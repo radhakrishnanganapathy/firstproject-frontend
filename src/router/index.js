@@ -33,12 +33,12 @@ const routes = [
     component: SignUp,
   },
   {
-    path: "/",
+    path: "/sd",
     name: "login",
     component: LogIn,
   },
   {
-    path: "/addword",
+    path: "/",
     name: "addword",
     component: AddWord,
   },

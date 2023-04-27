@@ -3,11 +3,11 @@
 <nav class="nav-header">
      <div class="">
           <router-link to="/" class=""><i class="fa fa-tint"></i> Name your project</router-link>
-          <a href="/"> Home</a>
+          <a href="/dds"> Home</a>
           <a href="/rawmaterial"> Raw Material</a>
           <a href="/viewproduct"> About</a>
           <a href="#"> Contact</a>
-          <a href="/addword"> Add Word</a>
+          <a href="/"> Add Word</a>
           <router-link to='/'><button class="btn-own">LogIn</button></router-link>
           </div>
 </nav>    
