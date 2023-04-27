@@ -1,5 +1,6 @@
 <template>
      <div>
+          <router-link to="/viewword"><button>View Words</button></router-link>
           <div>
                <form @submit.prevent="wordAdd">
                     <div>

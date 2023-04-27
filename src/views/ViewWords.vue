@@ -1,5 +1,7 @@
 <template>
      <div>
+          <router-link to="/"><button>Add Words</button></router-link>
+
           <table>
   <thead>
     <tr>
