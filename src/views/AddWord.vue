@@ -28,7 +28,7 @@ export default {
                let response = await SignUpUser.addword(this.addword)
                console.log(response)
                this.word = response
-               return this.$router.push('/')
+               return this.$router.push('/viewword')
           }
      }
 }
