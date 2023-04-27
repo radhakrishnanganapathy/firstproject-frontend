@@ -6,6 +6,7 @@ import RawMaterial from "../views/RawMaterial.vue";
 import SignUp from "../views/Signup.vue";
 import LogIn from "../views/LogIn.vue";
 import AddWord from "../views/AddWord.vue";
+import ViewWord from "../views/ViewWords.vue";
 const routes = [
   {
     path: "/home",
@@ -41,6 +42,11 @@ const routes = [
     path: "/",
     name: "addword",
     component: AddWord,
+  },
+  {
+    path: "/viewword",
+    name: "viewadd",
+    component: ViewWord,
   },
 ];
 

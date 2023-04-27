@@ -18,4 +18,10 @@ export class SignUpUser {
     console.log("`````````````````````", dataurl);
     return axios.post(dataurl);
   }
+
+  static getword() {
+    let dataurl = `${this.serverurl}/name/type/tamilwords/get-words`;
+    console.log("111111111111", dataurl);
+    return axios.get(dataurl);
+  }
 }

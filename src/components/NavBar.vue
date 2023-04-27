@@ -8,6 +8,7 @@
           <a href="/viewproduct"> About</a>
           <a href="#"> Contact</a>
           <a href="/"> Add Word</a>
+          <a href="/viewword"> View Word</a>
           <router-link to='/'><button class="btn-own">LogIn</button></router-link>
           </div>
 </nav>    
